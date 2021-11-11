@@ -1,0 +1,307 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.levoe-uho {
+  width: 150px;
+  height: 100px;
+  background: #9574b4;
+  margin-left: 100px;
+}
+
+.levoe-uho-sered {
+  width: 75px;
+  height: 75px;
+  background: #f5ba20;
+  margin: 50px 25px 10px 35px;
+}
+
+.pravoe-uho {
+  width: 150px;
+  height: 100px;
+  background: #9574b4;
+  margin-left: 380px;
+  margin-top: -100px;
+}
+
+.pravoe-uho-sered {
+  width: 75px;
+  height: 75px;
+  background: #f5ba20;
+  margin: 0 25px -10px 35px;
+}
+
+.golova {
+  width: 550px;
+  height: 320px;
+  background: #9574b4;
+  margin-left: 50px;
+  padding-top: 1px;
+}
+
+.golova .lev-glas {
+  width: 120px;
+  height: 100px;
+  background: #f5ba20;
+  margin-left: 70px;
+  margin-top: 70px;
+  padding-top: 1px;
+}
+
+.golova .lev-glas .ser-lev-glas {
+  width: 50px;
+  height: 60px;
+  background: black;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
+.golova .pr-glas {
+  width: 120px;
+  height: 100px;
+  background: #f5ba20;
+  margin-left: 270px;
+  margin-top: -100px;
+  padding: 1px;
+}
+
+.golova .pr-glas .ser-pr-glas {
+  width: 50px;
+  height: 60px;
+  background: black;
+  margin-left: -1px;
+  margin-top: 40px;
+}
+
+.nos {
+  width: 180px;
+  height: 50px;
+  background: #fdc580;
+  margin-left: 105px;
+  margin-top: 10px;
+  padding: 1px;
+}
+
+.nos-lev {
+  width: 30px;
+  height: 41px;
+  background: #e73896;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.nos-pr {
+  width: 30px;
+  height: 41px;
+  background: #e73896;
+  margin-top: -40px;
+  margin-left: 110px;
+}
+
+.rot {
+  width: 400px;
+  height: 40px;
+  background: #df1f26;
+  margin-top: 10px;
+}
+
+.rot .zyb-ch-1 {
+  width: 30px;
+  height: 20px;
+  background: black;
+  margin-left: 50px;
+}
+
+.rot .zyb-ch-2 {
+  width: 30px;
+  height: 20px;
+  background: black;
+  margin-left: 110px;
+  margin-top: -20px;
+}
+
+.rot .zyb-ch-3 {
+  width: 30px;
+  height: 20px;
+  background: black;
+  margin-left: 170px;
+  margin-top: -20px;
+}
+
+.rot .zyb-ch-4 {
+  width: 30px;
+  height: 20px;
+  background: black;
+  margin-left: 230px;
+  margin-top: -20px;
+}
+
+.rot .zyb-ch-5 {
+  width: 30px;
+  height: 20px;
+  background: black;
+  margin-left: 290px;
+  margin-top: -20px;
+}
+
+.rot .zyb-ch-6 {
+  width: 30px;
+  height: 20px;
+  background: black;
+  margin-left: 350px;
+  margin-top: -20px;
+}
+
+.rot .zyb-bel-1 {
+  width: 30px;
+  height: 20px;
+  background: white;
+  margin-left: 20px;
+}
+
+.rot .zyb-bel-2 {
+  width: 30px;
+  height: 20px;
+  background: white;
+  margin-left: 80px;
+  margin-top: -20px;
+}
+
+.rot .zyb-bel-3 {
+  width: 30px;
+  height: 20px;
+  background: white;
+  margin-left: 140px;
+  margin-top: -20px;
+}
+
+.rot .zyb-bel-4 {
+  width: 30px;
+  height: 20px;
+  background: white;
+  margin-left: 200px;
+  margin-top: -20px;
+}
+
+.rot .zyb-bel-5 {
+  width: 30px;
+  height: 20px;
+  background: white;
+  margin-left: 260px;
+  margin-top: -20px;
+}
+
+.rot .zyb-bel-6 {
+  width: 30px;
+  height: 20px;
+  background: white;
+  margin-left: 320px;
+  margin-top: -20px;
+}
+
+.sheya {
+  width: 100px;
+  height: 20px;
+  background: #9574b4;
+  margin-top: 148px;
+  margin-left: 220px;
+  padding-top: 1px;
+}
+
+.sheya .ser-sh {
+  width: 100px;
+  height: 10px;
+  background: #f5ba20;
+  margin-top: 5px;
+}
+
+.telo {
+  width: 380px;
+  height: 400px;
+  background: #9574b4;
+  margin-left: 85px;
+  padding-top: 1px;
+  border-radius: 5%;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.telo .zhivot {
+  width: 250px;
+  height: 250px;
+  background: #e73896;
+  border-radius: 50%;
+  margin: 100px 100px 30px 60px;
+}
+
+.telo .ruka-lev {
+  width: 80px;
+  height: 80px;
+  background: #9574b4;
+  margin-left: -80px;
+  margin-top: -350px;
+  border-radius: 20% 0 0 20%;
+}
+
+.telo .ruka-lev .koputo-lev {
+  width: 15px;
+  height: 80px;
+  background: black;
+  border-radius: 40% 0 0 40%;
+}
+
+.telo .ruka-pr {
+  width: 80px;
+  height: 80px;
+  background: #9574b4;
+  margin-left: 380px;
+  margin-top: -420px;
+  border-radius: 0 20% 20% 0;
+}
+
+.telo .ruka-pr .koputo-pr {
+  width: 15px;
+  height: 80px;
+  background: black;
+  margin-left: 65px;
+  border-radius: 0 40% 40% 0;
+}
+
+.telo .noga-lev {
+  width: 80px;
+  height: 80px;
+  background: #9574b4;
+  margin-left: 50px;
+  border-radius: 0 0 20% 20%;
+  padding-top: 1px;
+  padding-left: 1px;
+  margin-top: 260px;
+}
+
+.telo .noga-lev .kop-noga-lev {
+  width: 80px;
+  height: 15px;
+  background: black;
+  margin-top: 65px;
+  border-radius: 0 0 40% 40%;
+}
+
+.telo .noga-pr {
+  width: 80px;
+  height: 80px;
+  background: #9574b4;
+  margin-left: 250px;
+  border-radius: 0 0 20% 20%;
+  margin-top: -81px;
+  padding-top: 1px;
+}
+
+.telo .noga-pr .kop-noga-pr {
+  width: 80px;
+  height: 15px;
+  background: black;
+  margin-top: 65px;
+  border-radius: 0 0 40% 40%;
+}
+/*# sourceMappingURL=style.css.map */

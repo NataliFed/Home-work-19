@@ -1,0 +1,298 @@
+$violet: #9574b4;
+$yellow: #f5ba20;
+$black: black;
+$nose: #fdc580;
+$pink: #e73896;
+$red: #df1f26;
+$white: white;
+$earswidth: 150px;
+$earsheight: 100px;
+$earsseredwidth: 75px;
+$eyewidth: 120px;
+$eyeheight: 100px;
+$eyeseredwidth: 50px;
+$eyeseredheight: 60px;
+$nosewidth: 30px;
+$noseheight: 41px;
+$toothwidth: 30px;
+$toothheight: 20px;
+$neckwidht: 100px;
+$hand: 80px;
+$hoofwidth: 15px;
+$hoofheight: 80px;
+
+
+
+*, html, body{
+    margin: 0;
+    padding: 0;
+    
+    }
+.levoe-uho{
+    width: $earswidth;
+    height: $earsheight;
+    background: $violet;
+    margin-left: 100px;
+    &-sered{
+            width: $earsseredwidth;
+            height: $earsseredwidth;
+            background: $yellow;
+            margin: 50px 25px 10px 35px;
+    }
+}    
+.pravoe-uho{
+    width: $earswidth;
+    height: $earsheight;
+    background: $violet;
+    margin-left: 380px;
+    margin-top: -100px;
+    &-sered{
+        width: $earsseredwidth;
+        height: $earsseredwidth;
+        background: $yellow;
+        margin: 0 25px -10px 35px;
+        }
+    }
+  
+
+.golova{
+    width: 550px;
+    height: 320px;
+    background: $violet;
+    margin-left: 50px;
+    padding-top: 1px;
+    .lev-glas{
+        width: $eyewidth;
+        height: $eyeheight;
+        background: $yellow;
+        margin-left: 70px;
+        margin-top: 70px;
+        padding-top: 1px;
+        .ser-lev-glas{
+            width: $eyeseredwidth;
+            height: $eyeseredheight;
+            background: $black;
+            margin-left: 70px;
+            margin-top: 40px;
+        }
+    }
+    .pr-glas{
+        width: $eyewidth;
+        height: $eyeheight;
+        background: $yellow;
+        margin-left: 270px;
+        margin-top: -100px;
+        padding: 1px;
+        .ser-pr-glas{
+            width: $eyeseredwidth;
+            height: $eyeseredheight;
+            background: $black;
+            margin-left: -1px;
+            margin-top: 40px;
+        }
+    }
+}
+.nos{
+    width: 180px;
+    height: 50px;
+    background: $nose;
+    margin-left: 105px;
+    margin-top: 10px;
+    padding: 1px;
+    &-lev{
+        width: $nosewidth;
+        height: $noseheight;
+        background: $pink;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    &-pr{
+        width: $nosewidth;
+        height: $noseheight;
+        background: $pink;
+        margin-top: -40px;
+        margin-left: 110px;
+    }
+}
+.rot{
+    width: 400px;
+    height: 40px;
+    background: $red;
+    margin-top: 10px;
+    .zyb-ch-1{
+        width: $toothwidth;
+        height: $toothheight;
+        background: $black;
+        margin-left: 50px;
+    }
+    .zyb-ch-2{
+        width: $toothwidth;
+        height: $toothheight;
+        background: $black;
+        margin-left: 110px;
+        margin-top: -20px;
+    }
+    .zyb-ch-3{
+        width: $toothwidth;
+        height: $toothheight;
+        background: $black;
+        margin-left: 170px;
+        margin-top: -20px;
+    }
+    .zyb-ch-4{
+        width: $toothwidth;
+        height: $toothheight;
+        background: $black;
+        margin-left: 230px;
+        margin-top: -20px;
+    }
+    .zyb-ch-5{
+        width: $toothwidth;
+        height: $toothheight;
+        background: $black;
+        margin-left: 290px;
+        margin-top: -20px;
+    }
+    .zyb-ch-6{
+        width: $toothwidth;
+        height: $toothheight;
+        background: $black;
+        margin-left: 350px;
+        margin-top: -20px;
+    }
+    .zyb-bel-1{
+        width: $toothwidth;
+        height: $toothheight;
+        background: $white;
+        margin-left: 20px;
+    }
+    .zyb-bel-2{
+        width: $toothwidth;
+        height: $toothheight;
+        background: $white;
+        margin-left: 80px;
+        margin-top: -20px;
+    }
+    .zyb-bel-3{
+        width: $toothwidth;
+        height: $toothheight;
+        background: $white;
+        margin-left: 140px;
+        margin-top: -20px;
+    }
+    .zyb-bel-4{
+        width: $toothwidth;
+        height: $toothheight;
+        background: $white;
+        margin-left: 200px;
+        margin-top: -20px;
+    }
+    .zyb-bel-5{
+        width: $toothwidth;
+        height: $toothheight;
+        background: $white;
+        margin-left: 260px;
+        margin-top: -20px;
+    }
+    .zyb-bel-6{
+        width: $toothwidth;
+        height: $toothheight;
+        background: $white;
+        margin-left: 320px;
+        margin-top: -20px;
+    }
+}
+.sheya{
+    width: $neckwidht;
+    height: 20px;
+    background: $violet;
+    margin-top: 148px;
+    margin-left: 220px;
+    padding-top: 1px;
+    .ser-sh{
+        width: $neckwidht;
+        height: 10px;
+        background: $yellow;
+        margin-top: 5px;
+    }
+}
+.telo{
+    width: 380px;
+    height: 400px;
+    background: $violet;
+    margin-left: 85px;
+    padding-top: 1px;
+    border-radius: 5%;
+    padding-left: 1px;
+    padding-right: 1px;
+    .zhivot{
+        width: 250px;
+        height: 250px;
+        background: $pink;
+        border-radius: 50%;
+        margin: 100px 100px 30px 60px;
+    }
+    .ruka-lev{
+        width: $hand;
+        height: $hand;
+        background: $violet;
+        margin-left: -80px;
+        margin-top: -350px;
+        border-radius: 20% 0 0 20%;
+        .koputo-lev{
+            width: $hoofwidth;
+            height: $hoofheight;
+            background: $black;
+            border-radius: 40% 0 0 40%;
+        }
+    }
+    .ruka-pr{
+        width: $hand;
+        height: $hand;
+        background: $violet;
+        margin-left: 380px;
+        margin-top: -420px;
+        border-radius: 0 20% 20% 0;
+        .koputo-pr{
+            width: $hoofwidth;
+            height: $hoofheight;
+            background: $black;
+            margin-left: 65px;
+            border-radius: 0 40% 40% 0;
+        }
+    }
+    .noga-lev{
+        width: $hand;
+        height: $hand;
+        background: $violet;
+        margin-left: 50px;
+        border-radius: 0 0 20% 20%;
+        padding-top: 1px;
+        padding-left: 1px;
+        margin-top: 260px;
+        .kop-noga-lev{
+            width: $hoofheight;
+            height: $hoofwidth;
+            background: $black;
+            margin-top: 65px;
+            border-radius: 0 0 40% 40%;
+        }
+    }
+    .noga-pr{
+        width: $hand;
+        height: $hand;
+        background: $violet;
+        margin-left: 250px;
+        border-radius: 0 0 20% 20%;
+        margin-top: -81px;
+        padding-top: 1px;
+        .kop-noga-pr{
+            width: $hoofheight;
+            height: $hoofwidth;
+            background: $black;
+            margin-top: 65px;
+            border-radius: 0 0 40% 40%;
+        }
+    }
+}
+
